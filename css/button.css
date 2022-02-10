@@ -1,0 +1,27 @@
+/* button */
+
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+
+  padding: 12px 24px;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  border-color: transparent;
+}
+
+.button.secondary {
+  background-color: var(--primary-white-color);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
