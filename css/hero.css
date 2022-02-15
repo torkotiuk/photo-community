@@ -1,0 +1,17 @@
+/* HERO */
+.hero {
+  outline: 1px solid #ff0000;
+  text-align: center;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+
+  color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.43;
+}
+/* --- */

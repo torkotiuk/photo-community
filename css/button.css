@@ -8,10 +8,13 @@
   font-size: 15px;
   line-height: 1.2;
 
-  padding: 12px 24px;
   display: inline-block;
+  border-radius: 6px;
+  padding: 11px 34px;
+  min-width: 130px;
+  text-align: center;
+
   border: 1px solid #000;
-  border-radius: 4px;
 }
 
 .button.primary {

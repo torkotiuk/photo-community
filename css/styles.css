@@ -1,17 +1,10 @@
-/* HERO */
-.hero-title {
-  color: var(--title-text-color);
-
-  font-weight: 400;
-  font-size: 56px;
-  line-height: 1.43;
-  text-align: center;
-}
-/* --- */
-
 /* Snap photos section - Features */
+
 .features-list .title,
 .work-list .title {
+  margin-top: 0;
+  margin-bottom: 24px;
+
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -20,10 +13,25 @@
 }
 
 .features-list .text {
+  margin-top: 0;
+  margin-bottom: 32px;
   color: var(--title-text-color);
 }
 /* --- */
 
 /* Work examples */
+.work-list .item {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.work-list .item:nth-child(2n) {
+  background-color: var(--secondary-bg-color);
+}
+
+.work-list .text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 /* --- */

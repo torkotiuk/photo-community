@@ -22,9 +22,27 @@ a {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  outline: 3px solid orange;
+}
+
+.no-padding {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .section-title {
+  background-color: rgb(255, 238, 238);
+
+  margin-top: 0;
+  margin-bottom: 60px;
+
   color: var(--title-text-color);
 
   font-weight: 400;
@@ -36,6 +54,8 @@ a {
 .section-descr {
   font-size: 36px;
   line-height: 1.39;
+  margin-top: 0;
+  margin-bottom: 80px;
 }
 
 /* colors */
