@@ -1,24 +1,3 @@
-/* Snap photos section - Features */
-
-.features-list .title,
-.work-list .title {
-  margin-top: 0;
-  margin-bottom: 24px;
-
-  color: var(--title-text-color);
-
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.5;
-}
-
-.features-list .text {
-  margin-top: 0;
-  margin-bottom: 32px;
-  color: var(--title-text-color);
-}
-/* --- */
-
 /* Work examples */
 .work-list .item {
   padding-top: 80px;

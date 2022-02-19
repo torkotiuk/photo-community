@@ -1,0 +1,36 @@
+/* nav-site */
+.nav-site {
+  display: flex;
+  margin-left: 70px;
+  background-color: rgb(252, 255, 202);
+}
+
+.nav-site .item {
+  outline: 1px solid red;
+}
+
+.nav-site .item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.nav-site a {
+  display: inline-block;
+
+  padding-top: 23px;
+  padding-bottom: 23px;
+
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.nav-site a:hover,
+.nav-site a:focus {
+  color: var(--title-text-color);
+}
+
+.nav-site a.current {
+  color: var(--title-text-color);
+}
+/* --- */

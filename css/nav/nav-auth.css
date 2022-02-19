@@ -1,0 +1,8 @@
+.nav-auth {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-auth .item:not(:last-child) {
+  margin-right: 12px;
+}
