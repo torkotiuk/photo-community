@@ -1,0 +1,12 @@
+.partners-list {
+  background-color: rgb(211, 230, 255);
+  display: flex;
+  flex-wrap: wrap;
+  width: 1060px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partners-list .item {
+  margin: 30px 45px;
+}

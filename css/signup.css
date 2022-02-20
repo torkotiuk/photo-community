@@ -1,0 +1,18 @@
+.signup {
+  background-color: var(--secondary-bg-color);
+}
+
+.signup .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.signup .section-descr {
+  width: 70%;
+  margin-bottom: 0;
+}
+
+.signup .primary {
+  margin-right: 12px;
+}

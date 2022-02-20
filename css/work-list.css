@@ -1,0 +1,29 @@
+/* Work examples */
+.work-list .item {
+  display: flex;
+  align-items: center;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* every second (EVEN) element*/
+.work-list .item:nth-child(2n) {
+  background-color: var(--secondary-bg-color);
+  flex-direction: row-reverse;
+}
+
+/* in ODD items, .content have: */
+.work-list .item:nth-child(2n + 1) .content {
+  margin-left: 84px;
+}
+/* in EVEN items, .content have: */
+.work-list .item:nth-child(2n) .content {
+  margin-right: 84px;
+}
+
+.work-list .text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* --- */
